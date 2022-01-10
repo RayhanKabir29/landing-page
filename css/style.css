@@ -191,7 +191,10 @@ ol,
 ul {
   padding-left: 0 !important;
 }
-
+.card-text {
+  color: #000;
+  font-size: 14px;
+}
 /* Slider */
 .swiper-container {
   width: 100%;
