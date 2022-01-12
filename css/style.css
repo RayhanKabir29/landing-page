@@ -374,11 +374,21 @@ p {
 /* product detials */
 .product-details {
   padding: 80px 0;
-  background-color: #e0e0e0;
+  background-color: #ffffff;
+}
+.box {
+  border: 1px solid gray;
+  padding: 20px;
+  background-color: #fdfce5;
+}
+.box > ul > li {
+  list-style-type: circle;
+  margin-left: 20px;
 }
 .product-desc p {
-  color: #000;
-  font-size: 18px;
+  color: #818796;
+  font-size: 14px;
+  font-weight: 300;
 }
 /* Responsive */
 /* Navbar Responsive */
