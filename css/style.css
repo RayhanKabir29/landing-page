@@ -16,8 +16,13 @@ li {
 a {
   text-decoration: none;
 }
+.top {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -29,14 +34,14 @@ nav {
 }
 nav .navbar {
   height: 100%;
-  max-width: 1250px;
+  max-width: 1440px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: auto;
   /* background: red; */
-  padding: 0 50px;
+  padding: 0;
 }
 .navbar .logo a {
   font-size: 30px;
@@ -126,16 +131,18 @@ nav .navbar .links li:hover .js-sub-menu {
 .navbar .search-box {
   position: relative;
   height: 40px;
-  width: 40px;
+  width: 200px;
 }
 .navbar .search-box i {
   position: absolute;
+
+  left: 75px;
   height: 100%;
   width: 100%;
   line-height: 40px;
   text-align: center;
   font-size: 22px;
-  color: #fff;
+  color: #3e8da8;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -267,6 +274,11 @@ p {
 .product-category {
   width: 100%;
   padding: 60px 0;
+}
+.product-category .card {
+  width: 100%;
+  transform: skew(-20deg);
+  background: #3e8da8;
 }
 .product-category h2 {
   margin-bottom: 36px;

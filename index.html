@@ -21,10 +21,19 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
+  <div class="top-nav">
+    <div class="container">
+      <div class="row">
+        <div class="top">
+          <div class="logo">Advanced</div>
+          <div class="slogan">Slogan</div>
+        </div>
+      </div>
+    </div>
+  </div>
   <nav>
-    <div class="navbar">
+    <div class="navbar sticky-top">
       <i class='bx bx-menu'></i>
-      <div class="logo"><a href="index.html">Advanced</a></div>
       <div class="nav-links">
         <div class="sidebar-logo">
           <span class="logo-name">Advanced</span>
@@ -48,39 +57,47 @@
             <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
             <ul class="htmlCss-sub-menu sub-menu">
               <li class="more">
-                <span><a href="products.html">Avian</a>
+                <span><a href="products.html">Avian Products</a>
                 <i class='bx bxs-chevron-right arrow more-arrow'></i>
               </span>
                 <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">Sub Category</a></li>
+                  <li><a href="#">VACCINE</a></li>
+                  <li><a href="#">PHARMA</a></li>
+                  <li><a href="#">ANAFA</a></li>
                 </ul>
               </li>
               <li class="more">
-                <span><a href="products.html">Cattle</a>
+                <span><a href="products.html">Ruminant Products</a>
                 <i class='bx bxs-chevron-right arrow more-arrow'></i>
               </span>
                 <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">Sub Category</a></li>
+                  <li><a href="#">VACCINE</a></li>
+                  <li><a href="#">PHARMA</a></li>
+                  <li><a href="#">ANAFA</a></li>
                 </ul>
               </li>
               <li class="more">
-                <span><a href="products.html">Aqua</a>
+                <span><a href="products.html">Companion Animal Products</a>
                 <i class='bx bxs-chevron-right arrow more-arrow'></i>
               </span>
                 <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">Sub Category</a></li>
+                  <li><a href="#">VACCINE</a></li>
+                  <li><a href="#">PHARMA</a></li>
+                  <li><a href="#">ANAFA</a></li>
                 </ul>
               </li>
               <li class="more">
-                <span><a href="products.html">Vaccine</a>
+                <span><a href="products.html">Aqua Horticulture</a>
                 <i class='bx bxs-chevron-right arrow more-arrow'></i>
               </span>
                 <ul class="more-sub-menu sub-menu">
-                  <li><a href="#">Sub Category</a></li>
+                  <li><a href="#">VACCINE</a></li>
+                  <li><a href="#">PHARMA</a></li>
+                  <li><a href="#">ANAFA</a></li>
                 </ul>
               </li>
               <li class="more">
-                <span><a href="products.html">Dog</a>
+                <span><a href="products.html">Machinery</a>
                 <i class='bx bxs-chevron-right arrow more-arrow'></i>
               </span>
                 <ul class="more-sub-menu sub-menu">
@@ -101,14 +118,22 @@
           </li>
           <li><a href="#">Sales Booth</a></li>
           <li><a href="#">Stay In Touch</a></li>
-          <li><a href="#">AASCO Staff Login</a></li>
+          <li>
+            <a href="#">AASCO Staff Login</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Literature</a></li>
+              <li><a href="#">Requisition</a></li>
+              <li><a href="#">Events</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
       <div class="search-box">
         <i class='bx bx-search'></i>
-        <div class="input-box">
-          <input type="text" placeholder="Search...">
-        </div>
+        <form >
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
       </div>
     </div>
   </nav>
@@ -363,7 +388,7 @@
         items: 2
       },
       1000: {
-        items: 5
+        items: 4
       }
     }
   })
@@ -388,7 +413,7 @@
           items: 2
         },
         1000: {
-          items: 5
+          items: 4
         }
       }
     })
@@ -413,7 +438,7 @@
         items: 2
       },
       1000: {
-        items: 5
+        items: 4
       }
     }
   })
