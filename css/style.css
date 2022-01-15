@@ -402,6 +402,21 @@ p {
   font-size: 14px;
   font-weight: 300;
 }
+.social-icon {
+  margin-left: 28px;
+}
+.social-icon ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.social-icon ul li a {
+  color: #fff;
+  font-size: 40px;
+}
+.social-icon ul li a :hover {
+  color: honeydew;
+}
 /* Responsive */
 /* Navbar Responsive */
 @media (max-width: 920px) {
