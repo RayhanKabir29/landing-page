@@ -485,6 +485,103 @@ ul {
   list-style-type: square;
   margin-left: 40px;
 }
+/* Brand Page CSS */
+.brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-logo img {
+  transition: 0.3s;
+}
+.brand-logo img:hover {
+  transform: scale(1.5);
+}
+/* Event Page CSS */
+.event-details {
+  height: 350px;
+}
+.event-news {
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.event-date {
+  background-color: #e0e0e0;
+  height: 100%;
+}
+.date-header {
+  padding: 6px 0;
+  background-color: #4285f4;
+  color: #fff;
+  font-weight: 300;
+}
+.event-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.event-desc-heading {
+  padding: 10px 20px;
+}
+.event-desc-details {
+  padding: 10px 20px;
+}
+.event-img {
+  border: 1px solid gray;
+  padding: 3px;
+}
+.event-img img {
+  transition: 0.4s;
+}
+.event-img img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+/* Award page CSS */
+.award-wrap {
+  height: 600px;
+}
+.award-heading {
+  background-color: #59698d;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+.award-date p {
+  color: #fff;
+}
+.award-img {
+  overflow: hidden;
+  height: 360px;
+}
+.award-image {
+  width: 100%;
+  transition: all 0.4s ease;
+}
+.award-image:hover {
+  transform: scale(1.1);
+}
+.award-desc {
+  background-color: #f5f5f5;
+  padding: 15px 20px;
+}
+/* Sister Concern Page CSS */
+.sister-company {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid;
+  height: 200px;
+  transition: all 0.4s ease;
+}
+.sister-company:hover {
+  transform: scale(0.9);
+}
 /* Responsive */
 /* Navbar Responsive */
 @media (max-width: 920px) {
