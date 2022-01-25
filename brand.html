@@ -10,12 +10,126 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
     
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
-    <div class="overview-banner">
+    <div class="top-nav">
+        <div class="container">
+          <div class="row">
+            <div class="top">
+              <div class="logo">Advanced</div>
+              <div class="slogan">Slogan</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main_nav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown" id="myDropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About us</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Over View</a></li>
+                <li><a href="#">Mission, Vision & Values</a></li>
+                <li><a href="#">History & Growth</a></li>
+                <li><a href="#">Award</a></li>
+                <li><a href="#">Our Brands</a></li>
+                <li><a href="#">Sister Concern</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="myDropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Products</a>
+              <ul class="dropdown-menu">
+                <li> <a class="dropdown-item" href="#"> Avian Products &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">VACCINE</a></li>
+                    <li><a class="dropdown-item" href="#">PHARMA</a></li>
+                    <li><a class="dropdown-item" href="#">ANAFA</a></li>
+                    <li><a class="dropdown-item" href="#">OTHERS</a></li>
+                  </ul>
+                </li>
+                <li> <a class="dropdown-item" href="#"> Ruminant Products &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">VACCINE</a></li>
+                    <li><a class="dropdown-item" href="#">PHARMA</a></li>
+                    <li><a class="dropdown-item" href="#">ANAFA</a></li>
+                    <li><a class="dropdown-item" href="#">OTHERS</a></li>
+                  </ul>
+                </li>
+                <li> <a class="dropdown-item" href="#">Companion Animal Products &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">VACCINE</a></li>
+                    <li><a class="dropdown-item" href="#">PHARMA</a></li>
+                    <li><a class="dropdown-item" href="#">ANAFA</a></li>
+                    <li><a class="dropdown-item" href="#">OTHERS</a></li>
+                  </ul>
+                </li>
+                <li> <a class="dropdown-item" href="#">Aqua Horticulture &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">VACCINE</a></li>
+                    <li><a class="dropdown-item" href="#">PHARMA</a></li>
+                    <li><a class="dropdown-item" href="#">ANAFA</a></li>
+                    <li><a class="dropdown-item" href="#">OTHERS</a></li>
+                  </ul>
+                </li>
+                <li> <a class="dropdown-item" href="#">Machinery &raquo; </a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">VACCINE</a></li>
+                    <li><a class="dropdown-item" href="#">PHARMA</a></li>
+                    <li><a class="dropdown-item" href="#">ANAFA</a></li>
+                    <li><a class="dropdown-item" href="#">OTHERS</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="myDropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Publications</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Khamar</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Video</a></li>
+              </ul>
+            </li>
+            <li>
+              <a class="nav-link" href="#" >Sales Booth</a>
+            </li>
+            <li>
+              <a class="nav-link " href="#" >Stay In Touch</a>
+            </li>
+            <li class="nav-item dropdown" id="myDropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">AASCO Staff Login</a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Literature</a></li>
+                <li><a href="#">Requisition</a></li>
+                <li><a href="#">Notice</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex search-form">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <!-- navbar-collapse.// -->
+        </div>
+        <!-- container-fluid.// -->
+      </nav>
+    <div class="brand-banner">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -60,11 +174,56 @@
                 </div>
             </div>
     </div>
- 
+    <footer>
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Quick Links</h2>
+                <div class="links">
+                  <ul>
+                    <li><span class="bold-footer"><strong>Address:</strong></span> </li>
+                    <li><span class="bold-footer"><strong>Customer Care:</strong></span></li>
+                    <li><span class="bold-footer"><strong>Operating Hours:</strong> </span></li>
+                    <li><span class="bold-footer"><strong>Email:</strong></span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h2>Stay in Touch</h2>
+                <div class="social-icon">
+                  <ul>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li> <br>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h2>Useful Links</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class=" container">
+            <div class=" row ">
+              <div class="col-md-12">
+                <h6 class="text-center">All Right Reserve &copy; Advanced Animal Scince CO.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
   <!-- Bottstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="js/jquery-3.5.1.min.js"></script>
   <!-- Custom JS -->
   <script src="js/script.js"></script>
+</body>
 </body>
 </html>
