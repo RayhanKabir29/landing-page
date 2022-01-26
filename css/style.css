@@ -30,12 +30,13 @@ p {
 }
 .navbar{
   background-color: #01579B!important;
-  height: 40px;
+  height: 70px;
 }
+
 .nav-link{
   color:#fff !important;
   margin-right: 20px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .nav-link:hover{
   color: rgba(255,255,255,.75) !important;
@@ -85,6 +86,9 @@ p {
   color: #fff;
   background-color: #01579B !important;
   border-color: #01579B !important;
+}
+.collapse.show {
+  display: block;
 }
 /* Slider */
 .swiper-container {
