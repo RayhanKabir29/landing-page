@@ -94,6 +94,15 @@ p {
   width: 100%;
   height: 100vh;
 }
+.slide-1 {
+  background-image: url(../img/chandpur.jpeg);
+}
+.slide-2 {
+  background-image: url(../img/hironpoint.jpeg);
+}
+.slide-3 {
+  background-image: url(../img/room.jpeg);
+}
 .swiper-slide {
   position: relative;
   background-position: center;
