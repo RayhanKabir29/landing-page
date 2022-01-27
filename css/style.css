@@ -605,6 +605,19 @@ filter-nav{
   }
 }
 /* History and Growth */
+.history-banner{
+  background-image: url("../img/machineries.jpg");
+  background-image: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+
+}
+.history-banner h2 {
+  padding: 150px 0;
+  text-align: center;
+}
+
 .timeline-section{
 	background-color: #ECEFF1;
 	min-height: 100vh;
