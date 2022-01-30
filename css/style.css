@@ -689,7 +689,16 @@ filter-nav {
   font-weight: 300;
   line-height: 22px;
 }
-
+/* Login Form */
+.login-section {
+  padding: 15px 0;
+  background-image: url(../img/bg.png);
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
 /* Responsive */
 /* Navbar Responsive */
 @media all and (min-width: 992px) {
