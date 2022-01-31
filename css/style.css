@@ -689,6 +689,16 @@ filter-nav {
   font-weight: 300;
   line-height: 22px;
 }
+/* SignUp Form CSS */
+.signup-section {
+  padding: 15px 0;
+  background-image: url(../img/bg.png);
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
 /* Login Form */
 .login-section {
   padding: 15px 0;
