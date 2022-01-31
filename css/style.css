@@ -713,6 +713,28 @@ filter-nav {
 .leave-section {
   padding: 20px 0;
 }
+.form-control:focus {
+  outline: none;
+  border-color: #333 !important;
+  box-shadow: none !important;
+}
+.form-select:focus {
+  outline: none;
+  border-color: #333 !important;
+  box-shadow: none !important;
+}
+.conditions {
+  border: 1px solid #333;
+  padding: 5px 10px;
+}
+/* Petty Requisition */
+.table input {
+  border: none !important;
+}
+.submit-btn {
+  background: #01579b;
+  padding: 12px 38px;
+}
 /* Responsive */
 /* Navbar Responsive */
 @media all and (min-width: 992px) {
