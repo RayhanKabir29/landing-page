@@ -709,6 +709,10 @@ filter-nav {
   background-repeat: no-repeat;
   min-height: 100%;
 }
+/* Leave requisition  */
+.leave-section {
+  padding: 20px 0;
+}
 /* Responsive */
 /* Navbar Responsive */
 @media all and (min-width: 992px) {
