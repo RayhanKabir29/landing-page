@@ -127,7 +127,7 @@
             <div class="row">
               <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Apply To</label>
               <div class="col-sm-6">
-                  <select class="form-select" id="applyTo">
+                  <select class="form-select" name="applyTo">
                     <option selected>Managing Director</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -138,13 +138,13 @@
             <div class="row">
               <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Address</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" id="address" placeholder="12/C, Lalmatia">
+                <input type="text" class="form-control" name="address" placeholder="12/C, Lalmatia">
               </div>
             </div>
             <div class="row">
               <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Branch</label>
               <div class="col-sm-6">
-                  <select class="form-select" id="branchSelect">
+                  <select class="form-select" name="branchSelect">
                     <option selected>Head Office</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -159,13 +159,13 @@
               <div class="row">
                   <label for="colFormLabelLg" class=" col-sm-4 col-form-label col-form-label-lg">Applicant Name</label>
                   <div class="col-sm-6">
-                      <input type="text" class="form-control" id="applicantName" placeholder="John Doe">
+                      <input type="text" class="form-control" name="applicantName" placeholder="John Doe">
                   </div>
               </div>
               <div class="row">
                   <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Designation</label>
                   <div class="col-sm-6">
-                      <select class="form-select" id="applyTo">
+                      <select class="form-select" name="applyFrom">
                         <option selected>Area Manager</option>
                         <option value="1">Branch Manager</option>
                         <option value="2">Accountant</option>
@@ -176,7 +176,7 @@
               <div class="row">
                   <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Base Area</label>
                   <div class="col-sm-6">
-                      <select class="form-select" id="applyTo">
+                      <select class="form-select" name="applyAddress">
                         <option selected>Dhaka</option>
                         <option value="1">Chittagong</option>
                         <option value="2">Rajshahi</option>
@@ -190,13 +190,13 @@
       <div class="row mb-3">
           <label for="colFormLabelLg" class="col-md-2 col-sm-4 col-form-label col-form-label-lg">Subject</label>
           <div class="col-md-9 col-sm-12">
-              <input type="text" class="form-control" id="application" placeholder="Depot Petty Cash Requisition">
+              <input type="text" class="form-control" name="application" placeholder="Depot Petty Cash Requisition">
           </div>
       </div>
       <div class="row mb-3">
         
         <div class="col-sm-12">
-          <p>Dear Sir,<br>We need of the <input type="text" placeholder="petty cash for month of February-22" class="petty-input"> to meet the depot petty expense. For which, we are starting below the details of our sales center requirements</p>
+          <p>Dear Sir,<br>We need of the <input type="text" placeholder="petty cash for month of February-22" class="petty-input" name="petty-cash"> to meet the depot petty expense. For which, we are starting below the details of our sales center requirements</p>
         </div>
       </div>
       <div class="row">
@@ -206,31 +206,31 @@
                   <tr>
                     <td>Opening Balance</td>
                     <td>
-                        <input type="text" class="form-control" id="balanceAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="balanceAmount" placeholder="TK" >
                     </td>
                   </tr>
                   <tr>
                     <td>Total Expense</td>
                     <td>
-                        <input type="text" class="form-control" id="expenseAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="expenseAmount" placeholder="TK" >
                     </td>
                   </tr>
                   <tr>
                     <td>Estimate Total Expense</td>
                     <td>
-                        <input type="text" class="form-control" id="estimateAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="estimateAmount" placeholder="TK">
                     </td>
                   </tr>
                   <tr>
                     <td>Requisition Amount</td> 
                     <td>
-                        <input type="text" class="form-control" id="requisitionAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="requisitionAmount" placeholder="TK">
                     </td>
                   </tr>
                   <tr>
                     <td>In Word</td>
                     <td>
-                        <input type="text" class="form-control" id="requisitionAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="requisitionAmount" placeholder="TK">
                     </td>
                   </tr>
                 </tbody>
@@ -245,37 +245,37 @@
                   <tr>
                     <td>Office Rent</td>
                     <td>
-                        <input type="text" class="form-control" id="rentAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="rentAmount" placeholder="TK">
                     </td>
                   </tr>
                   <tr>
                     <td>Internet Bill</td>
                     <td>
-                        <input type="text" class="form-control" id="internetbillAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="internetbillAmount" placeholder="TK">
                     </td>
                   </tr>
                   <tr>
                     <td>Utility Bill</td>
                     <td>
-                        <input type="text" class="form-control" id="utilityBillAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="utilityBillAmount" placeholder="TK">
                     </td>
                   </tr>
                   <tr>
                     <td>Delivery Expense</td>
                     <td>
-                        <input type="text" class="form-control" id="deliveryBillAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="deliveryBillAmount" placeholder="TK">
                     </td>
                   </tr>
                   <tr>
                     <td>Other Expense</td>
                     <td>
-                        <input type="text" class="form-control" id="otherBillAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="otherBillAmount" placeholder="TK">
                     </td>
                   </tr>
                   <tr>
                     <td>Total Bill</td>
                     <td>
-                        <input type="text" class="form-control" id="totalBillAmount" placeholder="TK">
+                        <input type="text" class="form-control" name="totalBillAmount" placeholder="TK">
                     </td>
                   </tr>
                 </tbody>

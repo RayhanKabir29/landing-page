@@ -127,7 +127,7 @@
             <div class="row">
               <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Apply To</label>
               <div class="col-sm-6">
-                  <select class="form-select" id="applyTo">
+                  <select class="form-select" name="applyTo">
                     <option selected>Managing Director</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -138,13 +138,13 @@
             <div class="row">
               <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Address</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" id="address" placeholder="12/C, Lalmatia">
+                <input type="text" class="form-control" name="address" placeholder="12/C, Lalmatia">
               </div>
             </div>
             <div class="row">
               <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Branch</label>
               <div class="col-sm-6">
-                  <select class="form-select" id="branchSelect">
+                  <select class="form-select" name="branchSelect">
                     <option selected>Head Office</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -159,13 +159,13 @@
               <div class="row">
                   <label for="colFormLabelLg" class=" col-sm-4 col-form-label col-form-label-lg">Applicant Name</label>
                   <div class="col-sm-6">
-                      <input type="text" class="form-control" id="applicantName" placeholder="John Doe">
+                      <input type="text" class="form-control" name="applicantName" placeholder="John Doe">
                   </div>
               </div>
               <div class="row">
                   <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Designation</label>
                   <div class="col-sm-6">
-                      <select class="form-select" id="applyTo">
+                      <select class="form-select" name="applyFrom">
                         <option selected>Area Manager</option>
                         <option value="1">Branch Manager</option>
                         <option value="2">Accountant</option>
@@ -176,7 +176,7 @@
               <div class="row">
                   <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Base Area</label>
                   <div class="col-sm-6">
-                      <select class="form-select" id="applyTo">
+                      <select class="form-select" name="applyAddresS">
                         <option selected>Dhaka</option>
                         <option value="1">Chittagong</option>
                         <option value="2">Rajshahi</option>
@@ -190,12 +190,12 @@
       <div class="row mb-3">
           <label for="colFormLabelLg" class="col-md-2 col-sm-4 col-form-label col-form-label-lg">Subject</label>
           <div class="col-md-9 col-sm-12">
-              <input type="text" class="form-control" id="application" placeholder="Leave Fare Assistance">
+              <input type="text" class="form-control" name="application" placeholder="Leave Fare Assistance">
           </div>
       </div>
       <div class="row mb-3">
         <div class="col-sm-12">
-          <p>Dear Sir,<br>We are in need of my <input type="text" placeholder="Leave Fare Assistance (LFA) amount for the year 2022" class="lfa-input"> The amount as stated below: </p>
+          <p>Dear Sir,<br>We are in need of my <input type="text" placeholder="Leave Fare Assistance (LFA) amount for the year 2022" class="lfa-input" name="leave-fare"> The amount as stated below: </p>
         </div>
       </div>
        <div class="col-md-11 col-sm-12">
@@ -204,13 +204,13 @@
               <tr>
                 <td>LFA Amount</td>
                 <td>
-                    <input type="text" class="form-control" id="lfaAmount" placeholder="TK">
+                    <input type="text" class="form-control" name="lfaAmount" placeholder="TK">
                 </td>
               </tr>
               <tr>
                 <td>In Word</td> 
                 <td>
-                    <input type="text" class="form-control" id="inWordLfaAmount" placeholder="TK">
+                    <input type="text" class="form-control" name="inWordLfaAmount" placeholder="TK">
                 </td>
               </tr>
             </tbody>

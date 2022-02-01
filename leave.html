@@ -138,13 +138,13 @@
             <div class="row">
               <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Address</label>
               <div class="col-sm-6">
-                <input type="text" class="form-control" id="address" placeholder="12/C, Lalmatia">
+                <input type="text" class="form-control" name="address" placeholder="12/C, Lalmatia">
               </div>
             </div>
             <div class="row">
               <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Branch</label>
               <div class="col-sm-6">
-                  <select class="form-select" id="branchSelect">
+                  <select class="form-select" name="branchSelect">
                     <option selected>Head Office</option>
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -159,13 +159,13 @@
               <div class="row">
                   <label for="colFormLabelLg" class=" col-sm-4 col-form-label col-form-label-lg">Applicant Name</label>
                   <div class="col-sm-6">
-                      <input type="text" class="form-control" id="applicantName" placeholder="John Doe">
+                      <input type="text" class="form-control" name="applicantName" placeholder="John Doe">
                   </div>
               </div>
               <div class="row">
                   <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Designation</label>
                   <div class="col-sm-6">
-                      <select class="form-select" id="applyTo">
+                      <select class="form-select" name="applyFrom">
                         <option selected>Area Manager</option>
                         <option value="1">Branch Manager</option>
                         <option value="2">Accountant</option>
@@ -176,7 +176,7 @@
               <div class="row">
                   <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Base Area</label>
                   <div class="col-sm-6">
-                      <select class="form-select" id="applyTo">
+                      <select class="form-select" name="applyAddress">
                         <option selected>Dhaka</option>
                         <option value="1">Chittagong</option>
                         <option value="2">Rajshahi</option>
@@ -190,13 +190,13 @@
       <div class="row mb-3">
           <label for="colFormLabelLg" class="col-md-2 col-sm-4 col-form-label col-form-label-lg">Subject</label>
           <div class="col-md-9 col-sm-12">
-              <input type="text" class="form-control" id="application" placeholder="Leave Application">
+              <input type="text" class="form-control" name="application" placeholder="Leave Application">
           </div>
       </div>
       <div class="row">
         <label for="colFormLabelLg" class="col-md-2 col-sm-4 col-form-label col-form-label-lg">Leave Type</label>
         <div class="col-md-3 col-sm-12">
-            <select class="form-select" id="leaveSelect">
+            <select class="form-select" name="leaveSelect">
               <option selected>Casual Leave</option>
               <option value="1">Sick Leave</option>
               <option value="2">Annual Leave</option>
@@ -207,7 +207,7 @@
       </div>
       <div class="row mb-3">
         <div class="col-sm-12">
-          <p>Dear Sir, <br> Due to my <input type="text" placeholder="family/fever" class="leave-input">purpose, I am in need <input type="text" placeholder="2/(two)" class="leave-day">days <input type="text" placeholder="Casual Leave" class="leave-type"> for <input type="text" placeholder="visiting my home at phulbari, Dinajpur" class="leave-place">instant/with effect from <input type="text" placeholder="01-02-22" class="leave-from">to <input type="text" placeholder="03-02-22" class="leave-to"></p>
+          <p>Dear Sir, <br> Due to my <input type="text" placeholder="family/fever" class="leave-input" name="sick">purpose, I am in need <input type="text" placeholder="2/(two)" class="leave-day" name="days">days <input type="text" placeholder="Casual Leave" class="leave-type" name="leave"> for <input type="text" placeholder="visiting my home at phulbari, Dinajpur" class="leave-place" name="leave-place">instant/with effect from <input type="text" placeholder="01-02-22" class="leave-from" name="leave-from">to <input type="text" placeholder="03-02-22" class="leave-to" name="leave-to"></p>
         </div>
       </div>
        <div class="row">
