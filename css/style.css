@@ -732,12 +732,19 @@ filter-nav {
   padding: 5px 10px;
 }
 /* Petty Requisition */
+.pettyCash-section {
+  padding: 20px 0;
+}
 .table input {
   border: none !important;
 }
 .submit-btn {
   background: #01579b;
   padding: 12px 38px;
+}
+/* lfa section CSS */
+.lfa-section {
+  padding: 20px 0;
 }
 /* Responsive */
 /* Navbar Responsive */

@@ -121,97 +121,104 @@
   </nav>
   <section class="leave-section">
     <div class="container">
-        <form action="">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <form action="">
             <div class="row">
-                <label for="colFormLabelLg" class="offset-md-3 col-sm-2 col-form-label col-form-label-lg">Applicant Name</label>
-                <div class="col-sm-3">
-                    <input type="text" class="form-control" id="applicantName" placeholder="John Doe">
-                </div>
-            </div>
-            <div class="row">
-                <label for="colFormLabelLg" class="offset-md-3 col-sm-2 col-form-label col-form-label-lg">Designation</label>
-                <div class="col-sm-3">
-                    <select class="form-select" id="applyTo">
-                      <option selected>Area Manager</option>
-                      <option value="1">Branch Manager</option>
-                      <option value="2">Accountant</option>
-                      <option value="3">Field officer</option>
-                    </select>
-                </div>
+              <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Apply To</label>
+              <div class="col-sm-6">
+                  <select class="form-select" id="applyTo">
+                    <option selected>Managing Director</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+              </div>
             </div>
             <div class="row">
-                <label for="colFormLabelLg" class="offset-md-3 col-sm-2 col-form-label col-form-label-lg">Base Area</label>
-                <div class="col-sm-3">
-                    <select class="form-select" id="applyTo">
-                      <option selected>Dhaka</option>
-                      <option value="1">Chittagong</option>
-                      <option value="2">Rajshahi</option>
-                      <option value="3">Rangpur</option>
-                    </select>
-                </div>
+              <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Address</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="address" placeholder="12/C, Lalmatia">
+              </div>
             </div>
             <div class="row">
-                <label for="colFormLabelLg" class="offset-md-3 col-sm-2 col-form-label col-form-label-lg">Apply To</label>
-                <div class="col-sm-3">
-                    <select class="form-select" id="applyTo">
-                      <option selected>Managing Director</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                </div>
+              <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Branch</label>
+              <div class="col-sm-6">
+                  <select class="form-select" id="branchSelect">
+                    <option selected>Head Office</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+              </div>
             </div>
-            <div class="row">
-                <label for="colFormLabelLg" class="offset-md-3 col-sm-2 col-form-label col-form-label-lg">Branch</label>
-                <div class="col-sm-3">
-                    <select class="form-select" id="branchSelect">
-                      <option selected>Head Office</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row">
-                <label for="colFormLabelLg" class="offset-md-3 col-sm-2 col-form-label col-form-label-lg">Subject</label>
-                <div class="col-sm-3">
-                    <input type="text" class="form-control" id="application" placeholder="Leave Application">
-                </div>
-            </div>
-            <div class="row">
-                <label for="colFormLabelLg" class="offset-md-3 col-sm-2 col-form-label col-form-label-lg">Leave Type</label>
-                <div class="col-sm-3">
-                    <select class="form-select" id="branchSelect">
-                      <option selected>Casual Leave</option>
-                      <option value="1">Sick Leave</option>
-                      <option value="2">Annual Leave</option>
-                      <option value="3">Special Leave</option>
-                      <option value="4">Permission to leave H.Q</option>
-                    </select>
-                </div>
-            </div>
-            <div class="row mb-3">
-                <label for="colFormLabelLg" class="offset-md-3 col-sm-2 col-form-label col-form-label-lg">Application</label>
-                <div class="col-sm-3">
-                    <textarea class="form-control" aria-label="With textarea">
-                    </textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="offset-md-7 col-sm-2">
-                    <button class="btn btn-primary">Submit</button>
-                </div>
-            </div>
-        </form>
-        <div class="row">
-            <div class="col-12 mt-3">
-                <div class="conditions">
-                    <h4>Key Notes</h4>
-                    <p>* Sick Leave Require Medical Certificate,If the leave is more than 24hrs</p>
-                    <p>* Leave will not approved, If you submit your application after availing of leave</p>
-                </div>
+          </form>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <form action="">
+              <div class="row">
+                  <label for="colFormLabelLg" class=" col-sm-4 col-form-label col-form-label-lg">Applicant Name</label>
+                  <div class="col-sm-6">
+                      <input type="text" class="form-control" id="applicantName" placeholder="John Doe">
+                  </div>
+              </div>
+              <div class="row">
+                  <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Designation</label>
+                  <div class="col-sm-6">
+                      <select class="form-select" id="applyTo">
+                        <option selected>Area Manager</option>
+                        <option value="1">Branch Manager</option>
+                        <option value="2">Accountant</option>
+                        <option value="3">Field officer</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="row">
+                  <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Base Area</label>
+                  <div class="col-sm-6">
+                      <select class="form-select" id="applyTo">
+                        <option selected>Dhaka</option>
+                        <option value="1">Chittagong</option>
+                        <option value="2">Rajshahi</option>
+                        <option value="3">Rangpur</option>
+                      </select>
+                  </div>
+              </div>
+          </form>
+        </div>
+      </div>
+      <div class="row mb-3">
+          <label for="colFormLabelLg" class="col-md-2 col-sm-4 col-form-label col-form-label-lg">Subject</label>
+          <div class="col-md-9 col-sm-12">
+              <input type="text" class="form-control" id="application" placeholder="Leave Fare Assistance">
+          </div>
+      </div>
+      <div class="row mb-3">
+        <label for="colFormLabelLg" class="col-sm-12 col-form-label col-form-label-lg">Application</label>
+        <div class="col-sm-11">
+          <textarea class="form-control" aria-label="With textarea" style="resize:none; height:200px" name="name">
+          </textarea>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-sm-12">
+          <p>Please arrange to grant me the above leave prayed for</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-11 mt-3">
+            <div class="conditions">
+                <h4>Key Notes</h4>
+                <p>* Sick Leave Require Medical Certificate,If the leave is more than 24hrs</p>
+                <p>* Leave will not approved, If you submit your application after availing of leave</p>
             </div>
         </div>
+      </div>
+      <div class="row mt-3">
+          <div class="offset-md-5 ">
+              <button class="btn btn-primary submit-btn">Submit</button>
+          </div>
+      </div>
     </div>
   </section>
   <!-- Footer Section -->
@@ -267,3 +274,7 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+
