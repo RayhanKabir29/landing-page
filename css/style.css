@@ -713,6 +713,40 @@ filter-nav {
 .leave-section {
   padding: 20px 0;
 }
+.leave-input {
+  width: 110px;
+}
+.leave-day {
+  width: 80px;
+}
+.leave-type {
+  width: 140px;
+}
+.leave-place {
+  width: 320px;
+}
+.leave-from,
+.leave-to {
+  width: 110px;
+}
+.leave-input,
+.leave-day,
+.leave-type,
+.leave-place,
+.leave-from,
+.leave-to {
+  border: none;
+  text-decoration: underline;
+}
+.leave-input:focus,
+.leave-day:focus,
+.leave-type:focus,
+.leave-place:focus,
+.leave-from:focus,
+.leave-to:focus {
+  border: none !important;
+  outline: none !important;
+}
 /* .form-control,
 .form-select {
   width: 75% !important;
@@ -735,6 +769,15 @@ filter-nav {
 .pettyCash-section {
   padding: 20px 0;
 }
+.petty-input {
+  width: 300px;
+  border: none;
+  text-decoration: underline;
+}
+.petty-input:focus {
+  border: none !important;
+  outline: none !important;
+}
 .table input {
   border: none !important;
 }
@@ -745,6 +788,15 @@ filter-nav {
 /* lfa section CSS */
 .lfa-section {
   padding: 20px 0;
+}
+.lfa-input {
+  width: 435px;
+  border: none;
+  text-decoration: underline;
+}
+.lfa-input:focus {
+  border: none !important;
+  outline: none !important;
 }
 /* Responsive */
 /* Navbar Responsive */
@@ -880,5 +932,8 @@ filter-nav {
   }
   .timeline-dot {
     left: 0;
+  }
+  .lfa-input {
+    width: 300px;
   }
 }
