@@ -122,186 +122,194 @@
   <section class="leave-section">
     <div class="container">
        <div class="row">
-           <div class="col-md-6">
-            <form action="">
-                <div class="row">
-                    <label for="colFormLabelLg" class=" col-sm-4 col-form-label col-form-label-lg">Applicant Name</label>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="applicantName" placeholder="John Doe">
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Designation</label>
-                    <div class="col-sm-6">
-                        <select class="form-select" id="applyTo">
-                          <option selected>Area Manager</option>
-                          <option value="1">Branch Manager</option>
-                          <option value="2">Accountant</option>
-                          <option value="3">Field officer</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Base Area</label>
-                    <div class="col-sm-6">
-                        <select class="form-select" id="applyTo">
-                          <option selected>Dhaka</option>
-                          <option value="1">Chittagong</option>
-                          <option value="2">Rajshahi</option>
-                          <option value="3">Rangpur</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Apply To</label>
-                    <div class="col-sm-6">
-                        <select class="form-select" id="applyTo">
-                          <option selected>Managing Director</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Branch</label>
-                    <div class="col-sm-6">
-                        <select class="form-select" id="branchSelect">
-                          <option selected>Head Office</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Subject</label>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="application" placeholder="Depot Petty Cash Requisition">
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <label for="colFormLabelLg" class="col-sm-12 col-form-label col-form-label-lg">Application</label>
-                    <div class="col-sm-10">
-                        <textarea class="form-control" aria-label="With textarea" style="resize:none; height:384px" name="name">
-                        </textarea>
-                    </div>
-                </div>
-            </form>
-           </div>
-           <div class="col-md-6">
+        <div class="col-md-6 col-sm-12">
+          <form action="">
             <div class="row">
-                <div class=" col-sm-12">
-                    <table class="table">
-                        <tbody>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="openingbalance" placeholder="Opening Balance">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="balanceAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="totalExpense" placeholder="Total Expense">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="expenseAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="estimate" placeholder="Estimate Total Expense">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="estimateAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="requisition" placeholder="Requisition Amount">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="requisitionAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="inWord" placeholder="In Word">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="requisitionAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class=" col-sm-12">
-                    <div class="row my-3">
-                        <h2>Break up of estimated total expense of this month</h2>
-                    </div>
-                    <table class="table table-bordered">
-                        <tbody>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="rent" placeholder="Office Rent">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="rentAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="internetbill" placeholder="Internet Bill">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="internetbillAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="utilityBill" placeholder="Utility Bill">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="utilityBillAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="deliveryBill" placeholder="Delivery Expense">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="deliveryBillAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="otherBill" placeholder="Other Expense">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="otherBillAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                                <input type="text" class="form-control" id="totalBill" placeholder="Total Bill">
-                            </td>
-                            <td>
-                                <input type="text" class="form-control" id="totalBillAmount" placeholder="TK">
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                </div>
+              <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Apply To</label>
+              <div class="col-sm-6">
+                  <select class="form-select" id="applyTo">
+                    <option selected>Managing Director</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+              </div>
             </div>
-           </div>
-       </div>
-       <div class="row mt-3">
+            <div class="row">
+              <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Address</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" id="address" placeholder="12/C, Lalmatia">
+              </div>
+            </div>
+            <div class="row">
+              <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Branch</label>
+              <div class="col-sm-6">
+                  <select class="form-select" id="branchSelect">
+                    <option selected>Head Office</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <form action="">
+              <div class="row">
+                  <label for="colFormLabelLg" class=" col-sm-4 col-form-label col-form-label-lg">Applicant Name</label>
+                  <div class="col-sm-6">
+                      <input type="text" class="form-control" id="applicantName" placeholder="John Doe">
+                  </div>
+              </div>
+              <div class="row">
+                  <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Designation</label>
+                  <div class="col-sm-6">
+                      <select class="form-select" id="applyTo">
+                        <option selected>Area Manager</option>
+                        <option value="1">Branch Manager</option>
+                        <option value="2">Accountant</option>
+                        <option value="3">Field officer</option>
+                      </select>
+                  </div>
+              </div>
+              <div class="row">
+                  <label for="colFormLabelLg" class="col-sm-4 col-form-label col-form-label-lg">Base Area</label>
+                  <div class="col-sm-6">
+                      <select class="form-select" id="applyTo">
+                        <option selected>Dhaka</option>
+                        <option value="1">Chittagong</option>
+                        <option value="2">Rajshahi</option>
+                        <option value="3">Rangpur</option>
+                      </select>
+                  </div>
+              </div>
+          </form>
+        </div>
+      </div>
+      <div class="row mb-3">
+          <label for="colFormLabelLg" class="col-md-2 col-sm-4 col-form-label col-form-label-lg">Subject</label>
+          <div class="col-md-9 col-sm-12">
+              <input type="text" class="form-control" id="application" placeholder="Depot Petty Cash Requisition">
+          </div>
+      </div>
+      <div class="row mb-3">
+        <label for="colFormLabelLg" class="col-sm-12 col-form-label col-form-label-lg">Application</label>
+        <div class="col-sm-11">
+          <textarea class="form-control" aria-label="With textarea" style="resize:none; height:200px" name="name">
+          </textarea>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-11 col-sm-12">
+            <table class="table">
+                <tbody>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="openingbalance" placeholder="Opening Balance">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="balanceAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="totalExpense" placeholder="Total Expense">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="expenseAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="estimate" placeholder="Estimate Total Expense">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="estimateAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="requisition" placeholder="Requisition Amount">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="requisitionAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="inWord" placeholder="In Word">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="requisitionAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-11 col-sm-12">
+            <div class="row my-3">
+                <h2>Break up of estimated total expense of this month</h2>
+            </div>
+            <table class="table table-bordered">
+                <tbody>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="rent" placeholder="Office Rent">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="rentAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="internetbill" placeholder="Internet Bill">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="internetbillAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="utilityBill" placeholder="Utility Bill">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="utilityBillAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="deliveryBill" placeholder="Delivery Expense">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="deliveryBillAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="otherBill" placeholder="Other Expense">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="otherBillAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="text" class="form-control" id="totalBill" placeholder="Total Bill">
+                    </td>
+                    <td>
+                        <input type="text" class="form-control" id="totalBillAmount" placeholder="TK">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+      <div class="row mt-3">
         <div class="offset-md-5 ">
             <button class="btn btn-primary submit-btn">Submit</button>
         </div>
-    </div>
+      </div>
     </div>
   </section>
   <!-- Footer Section -->
@@ -361,6 +369,3 @@
 
 
 
-<div class="row">
-    
-</div>

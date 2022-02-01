@@ -713,6 +713,10 @@ filter-nav {
 .leave-section {
   padding: 20px 0;
 }
+/* .form-control,
+.form-select {
+  width: 70% !important;
+} */
 .form-control:focus {
   outline: none;
   border-color: #333 !important;
