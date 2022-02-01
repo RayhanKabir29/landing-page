@@ -190,8 +190,20 @@
       <div class="row mb-3">
           <label for="colFormLabelLg" class="col-md-2 col-sm-4 col-form-label col-form-label-lg">Subject</label>
           <div class="col-md-9 col-sm-12">
-              <input type="text" class="form-control" id="application" placeholder="Leave Fare Assistance">
+              <input type="text" class="form-control" id="application" placeholder="Leave Application">
           </div>
+      </div>
+      <div class="row">
+        <label for="colFormLabelLg" class="col-md-2 col-sm-4 col-form-label col-form-label-lg">Leave Type</label>
+        <div class="col-md-3 col-sm-12">
+            <select class="form-select" id="leaveSelect">
+              <option selected>Casual Leave</option>
+              <option value="1">Sick Leave</option>
+              <option value="2">Annual Leave</option>
+              <option value="3">Special Leave</option>
+              <option value="4">Permission To Leave H.Q</option>
+            </select>
+        </div>
       </div>
       <div class="row mb-3">
         <label for="colFormLabelLg" class="col-sm-12 col-form-label col-form-label-lg">Application</label>

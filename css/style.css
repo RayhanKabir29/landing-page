@@ -715,7 +715,7 @@ filter-nav {
 }
 /* .form-control,
 .form-select {
-  width: 70% !important;
+  width: 75% !important;
 } */
 .form-control:focus {
   outline: none;
