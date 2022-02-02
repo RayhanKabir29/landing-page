@@ -732,10 +732,58 @@ filter-nav {
   color: #3e3e3e;
   transition: 0.5s;
 }
-.news-short-desc p{
-  color: #9e9e9e
+.news-short-desc p {
+  color: #9e9e9e;
 }
-
+/* News Details CSS */
+.news-details-heading {
+  background: #edf2fa;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-details-header {
+  width: 70%;
+  margin: 0 auto;
+}
+.news-details-header a {
+  font-size: 26px;
+  font-weight: 500;
+  color: #3e3e3e;
+  transition: 0.5s;
+}
+.news-quote {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.news-quote blockquote {
+  font-size: 20px;
+  color: #0288d1;
+}
+.quote-icon {
+  position: relative;
+  bottom: 83px;
+  color: #01579b;
+}
+.news-details-desc p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #212529;
+}
+.discover-news {
+  padding-bottom: 20px;
+}
+.other-news-short-desc {
+  text-align: center;
+}
+.other-news-short-desc p {
+  margin-top: 8px;
+}
+.other-news-short-desc a {
+  color: #3e3e3e;
+}
 /* SignUp Form CSS */
 .signup-section {
   padding: 15px 0;
