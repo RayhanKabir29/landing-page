@@ -784,6 +784,44 @@ filter-nav {
 .other-news-short-desc a {
   color: #3e3e3e;
 }
+/* Stay in Touch Page */
+.stayin-touch-section {
+  padding: 40px 0;
+}
+.stayin-touch-banner {
+  background-image: url("../img/machineries.jpg");
+  background-image: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.stayin-touch-banner h2 {
+  padding: 150px 0;
+  text-align: center;
+}
+.form-group input {
+  border: none;
+  border-bottom: 1px solid;
+}
+.form-control {
+  border-radius: 0 !important;
+}
+.captcha {
+  border: 1px solid gray;
+  padding: 3px;
+  text-align: center;
+}
+.sent-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.sent-btn button {
+  padding: 10px 40px;
+  border: none;
+  background-color: #01579b;
+  color: #fff;
+  border-radius: 8px;
+}
 /* SignUp Form CSS */
 .signup-section {
   padding: 15px 0;
@@ -1030,5 +1068,11 @@ filter-nav {
   }
   .lfa-input {
     width: 300px;
+  }
+  .sent-btn {
+    display: block;
+  }
+  .sent-btn button {
+    margin-top: 10px;
   }
 }
