@@ -931,6 +931,125 @@ filter-nav {
   border: none !important;
   outline: none !important;
 }
+/* Job Circular Page CSS */
+.job_section {
+  background-color: #eceff1;
+  padding: 40px 0;
+}
+
+.job_section .heading_container {
+  margin-bottom: 15px;
+}
+
+.job_section .job_container {
+  margin-top: 45px;
+}
+
+.job_section .job_heading {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.job_section .box {
+  background-color: #01579b;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #a4a4a4;
+  margin-top: 25px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+.job_section .box .job_content-box {
+  display: flex;
+}
+
+.job_section .box .img-box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  padding: 20px;
+  margin-right: 20px;
+  border: 1px solid #717171;
+  background-color: #ffffff;
+}
+
+.job_section .box .img-box img {
+  width: 100%;
+}
+
+.job_section .box .detail-box h5 {
+  font-weight: 600;
+  color: #fff;
+}
+
+.job_section .box .detail-box .detail-info {
+  display: flex;
+}
+
+.job_section .box .detail-box .detail-info h6 {
+  margin: 0;
+  margin-right: 15px;
+  color: #f5f5f5;
+}
+
+.job_section .box .option-box {
+  display: flex;
+  margin-left: auto;
+}
+
+.job_section .box .option-box .fav-btn {
+  margin-right: 25px;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  color: inherit;
+}
+
+.job_section .box .option-box .apply-btn {
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #213092;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: all 0.3s;
+  border: 1px solid #213092;
+  outline: none;
+}
+
+.job_section .box .option-box .apply-btn:hover {
+  background-color: transparent;
+  color: #213092;
+}
+
+.job_section .box .option-box .apply-btn:hover {
+  color: #ffffff;
+}
+
+.job_section .btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.job_section .btn-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #01579b;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: all 0.3s;
+  border: 1px solid #01579b;
+  outline: none;
+}
+
+.job_section .btn-box a:hover {
+  background-color: transparent;
+  color: #01579b;
+}
+
 /* Responsive */
 /* Navbar Responsive */
 @media all and (min-width: 992px) {
