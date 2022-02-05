@@ -794,6 +794,44 @@ filter-nav {
 .other-news-short-desc a {
   color: #3e3e3e;
 }
+/* Event Details */
+.event-details-page {
+  padding: 40px 0;
+}
+.event-details-heading {
+  background: #edf2fa;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event-details-header {
+  width: 70%;
+  margin: 0 auto;
+}
+.event-details-header a {
+  font-size: 26px;
+  font-weight: 500;
+  color: #3e3e3e;
+  transition: 0.5s;
+}
+.event-details-desc p {
+  font-size: 16px;
+  font-weight: 200;
+  color: #212529;
+}
+.discover-event {
+  padding-bottom: 20px;
+}
+.other-event-short-desc {
+  text-align: center;
+}
+.other-event-short-desc p {
+  margin-top: 8px;
+}
+.other-event-short-desc a {
+  color: #3e3e3e;
+}
 /* Stay in Touch Page */
 .stayin-touch-section {
   padding: 40px 0;
