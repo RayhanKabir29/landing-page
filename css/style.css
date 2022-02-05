@@ -23,6 +23,16 @@ a {
 p {
   color: #000;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
 .top {
   margin: 20px 0;
   display: flex;
@@ -1089,6 +1099,14 @@ filter-nav {
   font-weight: 500;
   font-size: 18px;
   transition: all 0.3s;
+}
+/* Notice Page */
+.notice-footer input {
+  border: none;
+  border-bottom: 1px solid #333;
+}
+.notice-footer input:focus {
+  outline: none;
 }
 /* Responsive */
 /* Navbar Responsive */
