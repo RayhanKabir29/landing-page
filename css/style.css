@@ -1146,6 +1146,71 @@ filter-nav {
 .notice-footer input:focus {
   outline: none;
 }
+/* Sister Concern */
+.about-sister-company {
+  background: rgba(27, 161, 226, 0.07);
+  padding: 40px;
+  margin-top: -30px;
+}
+.about-sister-company .social-icon i {
+  color: #27a2db;
+  font-size: 22px;
+}
+.about-sister-company .social-icon ul li a :hover {
+  color: #333;
+}
+.sister-concern-page {
+  padding: 40px 0;
+}
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  display: none !important;
+}
+.sister-concern-img {
+  overflow: hidden;
+}
+.sister-image {
+  height: 300px;
+  width: 100%;
+  transition: all 0.8s ease;
+  z-index: 999;
+}
+.sister-image:hover {
+  transform: scale(1.4);
+}
+.doted-outline {
+  border: 1px dashed #888888;
+  padding: 1rem;
+}
+dl {
+  width: 80%;
+  margin: 0 auto;
+}
+.icon {
+  color: #3e3e3e;
+  margin-right: 10px;
+}
+.visit-web {
+  padding: 10px 0;
+  background-color: #60a917;
+  text-align: center;
+}
+.visit-web a {
+  color: #fff;
+}
+.view-btn {
+  display: flex;
+  align-items: center;
+}
+.view-btn i {
+  font-size: 34px;
+}
+
+.manufacturing-plant {
+  width: 90%;
+  margin: 0 auto;
+  background: #fff;
+}
 /* Responsive */
 /* Navbar Responsive */
 @media all and (min-width: 992px) {
