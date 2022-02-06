@@ -1152,6 +1152,9 @@ filter-nav {
   padding: 40px;
   margin-top: -30px;
 }
+.about-sister-company .social-icon {
+  margin: 0;
+}
 .about-sister-company .social-icon i {
   color: #27a2db;
   font-size: 22px;
@@ -1210,6 +1213,9 @@ dl {
   width: 90%;
   margin: 0 auto;
   background: #fff;
+}
+.products-img {
+  border: 1px solid #333;
 }
 /* Responsive */
 /* Navbar Responsive */
