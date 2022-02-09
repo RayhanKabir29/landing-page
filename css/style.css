@@ -117,6 +117,7 @@ input[type="number"] {
   position: relative;
   background-position: center;
   background-size: cover;
+  height: 200px;
 }
 .content {
   width: 80%;
@@ -1251,6 +1252,19 @@ dl {
   }
   .search-form {
     display: none !important;
+  }
+  .swiper-slide {
+    height: 320px !important;
+  }
+  .swiper-cube-shadow {
+    display: none !important;
+  }
+  .collapse.show {
+    background: #01579b;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 10px;
   }
 }
 /* Slider Responsive */
