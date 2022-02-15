@@ -325,12 +325,12 @@
             >Leave Type</label
           >
           <div class="col-md-3 col-sm-12">
-            <select class="form-select" name="leaveSelect">
-              <option selected>Casual Leave</option>
-              <option value="1">Sick Leave</option>
-              <option value="2">Annual Leave</option>
-              <option value="3">Special Leave</option>
-              <option value="4">Permission To Leave H.Q</option>
+            <select class="form-select" id="leave" onChange="update()">
+              <option value="Casual Leave">Casual</option>
+              <option value="Annual Leave">Annual</option>
+              <option value="Sick Leave">Sick</option>
+              <option value="Special Leave">Special</optionSick</option>
+              <option value="Permission Leave for H.Q">Leave for H.Q</optionSick</option>
             </select>
           </div>
         </div>
@@ -353,12 +353,7 @@
                 name="days"
               />
               days
-              <input
-                type="text"
-                placeholder="Casual Leave"
-                class="leave-type"
-                name="leave"
-              />
+              <input type="text" id="value" />
               for
               <input
                 type="text"
@@ -509,5 +504,17 @@
         $("#datepicker2").datepicker();
       });
     </script>
+    <script>
+      function update() {
+        var select = document.getElementById("leave");
+        var option = select.options[select.selectedIndex];
+
+        document.getElementById("value").value = option.value;
+        document.getElementById("text").value = option.text;
+      }
+
+      update();
+    </script>
+    
   </body>
 </html>
