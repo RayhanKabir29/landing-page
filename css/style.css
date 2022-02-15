@@ -951,13 +951,10 @@ filter-nav {
 .pettyCash-section {
   padding: 20px 0;
 }
-.petty-input {
+/* .petty-input {
   width: 300px;
-  border: none;
-  text-decoration: underline;
-}
+} */
 .petty-input:focus {
-  border: none !important;
   outline: none !important;
 }
 .table input {
