@@ -911,22 +911,12 @@ filter-nav {
 .leave-to {
   width: 110px;
 }
-.leave-input,
-.leave-day,
-.leave-type,
-.leave-place,
-.leave-from,
-.leave-to {
-  border: none;
-  text-decoration: underline;
-}
 .leave-input:focus,
 .leave-day:focus,
 .leave-type:focus,
 .leave-place:focus,
 .leave-from:focus,
 .leave-to:focus {
-  border: none !important;
   outline: none !important;
 }
 /* .form-control,
@@ -968,13 +958,7 @@ filter-nav {
 .lfa-section {
   padding: 20px 0;
 }
-.lfa-input {
-  width: 435px;
-  border: none;
-  text-decoration: underline;
-}
 .lfa-input:focus {
-  border: none !important;
   outline: none !important;
 }
 /* Job Circular Page CSS */
