@@ -311,7 +311,7 @@
                     type="text"
                     class="form-control text-uppercase"
                     name="lfaYear"
-                    id="datepicker"
+                    id="txtFromDate"
                   />
                 </div>
               </div>
@@ -325,7 +325,7 @@
               amount for the year
               <input
                 type="text"
-                placeholder="2022"
+                id="txtToDate"
                 class="lfa-input"
                 name="leave-fare"
               />
@@ -461,7 +461,19 @@
     <script src="js/script.js"></script>
     <script>
       $(function () {
-        $("#datepicker").datepicker({ dateFormat: "yy" });
+        $("#txtFromDate").datepicker({
+          dateFormat: "yy",
+          onSelect: function (selected) {
+            $("#txtToDate").datepicker("option", selected);
+            $("#txtToDate").datepicker("setDate", "+0");
+          },
+        });
+        $("#txtToDate").datepicker({
+          dateFormat: "yy",
+          onSelect: function (selected) {
+            $("#txtFromDate").datepicker("option", selected);
+          },
+        });
       });
     </script>
   </body>

@@ -327,6 +327,7 @@
                 placeholder="February"
                 class="petty-input"
                 name="petty-cash"
+                id="datepicker3"
               />
               to meet the depot petty expense. For which, we are starting below
               the details of our sales center requirements
@@ -574,6 +575,9 @@
     <script>
       $(function () {
         $("#datepicker").datepicker({ dateFormat: "yy" });
+      });
+      $(function () {
+        $("#datepicker3").datepicker({ dateFormat: "MM" });
       });
     </script>
   </body>
