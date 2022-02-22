@@ -247,7 +247,8 @@
                     type="text"
                     class="form-control text-uppercase"
                     name="application"
-                    placeholder="Depot Petty Cash Requisition"
+                    value="Depot Petty Cash Requisition"
+                    readonly
                   />
                 </div>
               </div>
@@ -304,15 +305,21 @@
                 <label
                   for="colFormLabelLg"
                   class="col-sm-4 col-form-label col-form-label-lg"
-                  >Year</label
+                  >Month</label
                 >
                 <div class="col-sm-6">
                   <input
                     type="text"
+                    class="form-control"
+                    id="fromDate"
+                    name="fromDate"
+                  />
+                  <!-- <input
+                    type="text"
                     class="form-control text-uppercase"
                     name="pettyYear"
                     id="datepicker"
-                  />
+                  /> -->
                 </div>
               </div>
             </form>
@@ -324,11 +331,18 @@
               Dear Sir,<br />We need of the petty cash for month of
               <input
                 type="text"
+                class="petty-input"
+                id="toDate"
+                name="toDate"
+                readonly
+              />
+              <!-- <input
+                type="text"
                 placeholder="February"
                 class="petty-input"
                 name="petty-cash"
                 id="datepicker3"
-              />
+              /> -->
               to meet the depot petty expense. For which, we are starting below
               the details of our sales center requirements
             </p>
@@ -594,7 +608,7 @@
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
-    <script>
+    <!-- <script>
       $(function () {
         $("#datepicker").datepicker({
           dateFormat: "MM-yy",
@@ -610,14 +624,21 @@
           },
         });
       });
-    </script>
-    <!-- <script>
-      $(function () {
-        $("#datepicker").datepicker({ dateFormat: "MM-yy" });
-      });
-      $(function () {
-        $("#datepicker3").datepicker({ dateFormat: "MM-yy" });
-      });
     </script> -->
+    <script>
+      $("#fromDate").datepicker({
+        dateFormat: "MM-yy",
+      });
+      $("#fromDate").change(function () {
+        if ($(this).val() != "") {
+          var toDate = new Date($(this).val());
+          MM = toDate.getMonth() + 1;
+          year = toDate.getFullYear();
+          $("#toDate").val(MM + "-" + year);
+        } else {
+          $("#toDate").val("");
+        }
+      });
+    </script>
   </body>
 </html>
