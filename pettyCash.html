@@ -594,13 +594,23 @@
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
-    <script>
+    <!-- <script>
       $(function () {
-        $("#datepicker").datepicker({ dateFormat: "MM-yy" });
+        $("#datepicker").datepicker({
+          dateFormat: "MM-yy",
+          onSelect: function (selected) {
+            $("#datepicker3").datepicker("option", selected);
+            $("#datepicker3").datepicker("setDate", "+0");
+          },
+        });
+        $("#datepicker3").datepicker({
+          dateFormat: "MM-yy",
+          onSelect: function (selected) {
+            $("#datepicker").datepicker("option", selected);
+          },
+        });
       });
-      $(function () {
-        $("#datepicker3").datepicker({ dateFormat: "MM-yy" });
-      });
-    </script>
+    </script> -->
+    
   </body>
 </html>
