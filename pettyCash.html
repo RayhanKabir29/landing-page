@@ -277,12 +277,12 @@
                   >Designation</label
                 >
                 <div class="col-sm-6">
-                  <select class="form-select" name="applyFrom">
-                    <option selected>Area Manager</option>
-                    <option value="1">Branch Manager</option>
-                    <option value="2">Accountant</option>
-                    <option value="3">Field officer</option>
-                  </select>
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="applicantFrom"
+                    placeholder="Manager"
+                  />
                 </div>
               </div>
               <div class="row">
@@ -574,10 +574,10 @@
     <script src="js/script.js"></script>
     <script>
       $(function () {
-        $("#datepicker").datepicker({ dateFormat: "yy" });
+        $("#datepicker").datepicker({ dateFormat: "MM-yy" });
       });
       $(function () {
-        $("#datepicker3").datepicker({ dateFormat: "MM" });
+        $("#datepicker3").datepicker({ dateFormat: "MM-yy" });
       });
     </script>
   </body>
