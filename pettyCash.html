@@ -628,6 +628,8 @@
     <script>
       $("#fromDate").datepicker({
         dateFormat: "MM-yy",
+        changeMonth: true,
+        changeYear: true,
       });
       $("#fromDate").change(function () {
         if ($(this).val() != "") {
