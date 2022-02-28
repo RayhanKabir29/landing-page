@@ -10,6 +10,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-print-css/css/bootstrap-print.min.css" media="all">
     <!-- font awesome -->
     <link
       rel="stylesheet"
@@ -23,7 +24,8 @@
     />
     <!-- <link rel="stylesheet" href="/resources/demos/style.css" /> -->
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css" media="all" />
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
@@ -186,235 +188,101 @@
       </div>
       <!-- container-fluid.// -->
     </nav>
-    <section class="pettyCash-section">
+    <section class="lfaPrint-section py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <form action="">
-              <div class="row">
-                <label
-                  for="colFormLabelLg"
-                  class="col-sm-4 col-form-label col-form-label-lg"
-                  >Apply To</label
-                >
-                <div class="col-sm-6">
-                  <select class="form-select" name="applyTo">
-                    <option selected>Managing Director</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Apply To</h4>
               </div>
-              <div class="row">
-                <label
-                  for="colFormLabelLg"
-                  class="col-sm-4 col-form-label col-form-label-lg"
-                  >Address</label
-                >
-                <div class="col-sm-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="address"
-                    placeholder="12/C, Lalmatia"
-                  />
-                </div>
+            </div>
+            <div class="underline"></div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Finanace Director</h4>
+                <p>Advanced Animal Co. Ltd</p>
+                <p>20/1, Lalmatia, Dhaka-1207</p>
               </div>
-              <div class="row">
-                <label
-                  for="colFormLabelLg"
-                  class="col-sm-4 col-form-label col-form-label-lg"
-                  >Branch</label
-                >
-                <div class="col-sm-6">
-                  <select class="form-select" name="branchSelect">
-                    <option selected>Head Office</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Branch: <span>Dhaka</span> </h4>
               </div>
-              <div class="row mb-3">
-                <label
-                  for="colFormLabelLg"
-                  class="col-sm-4 col-form-label col-form-label-lg"
-                  >Subject</label
-                >
-                <div class="col-sm-6">
-                  <input
-                    type="text"
-                    class="form-control text-uppercase"
-                    name="application"
-                    value="Depot Petty Cash Requisition"
-                    readonly
-                  />
-                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Subject: <span>DEPOT PETTY CASH REQUISITION</span> </h3>
               </div>
-            </form>
+            </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <form action="">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <h4>Applicant Name</h4>
+              </div>
+            </div>
+             <div class="underline"></div>
               <div class="row">
-                <label
-                  for="colFormLabelLg"
-                  class="col-sm-4 col-form-label col-form-label-lg"
-                  >Applicant Name</label
-                >
-                <div class="col-sm-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="applicantName"
-                    placeholder="John Doe"
-                  />
+                <div class="col-md-12">
+                  <h4>Name: <span class="printdata">John</span> </h4>
                 </div>
               </div>
-              <div class="row">
-                <label
-                  for="colFormLabelLg"
-                  class="col-sm-4 col-form-label col-form-label-lg"
-                  >Designation</label
-                >
-                <div class="col-sm-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="applicantFrom"
-                    placeholder="Manager"
-                  />
+               <div class="row">
+                <div class="col-md-12">
+                  <h4>Desg: <span class="printdata">Manager</span> </h4>
+                </div>
+              </div>
+               <div class="row">
+                <div class="col-md-12">
+                  <h4>Base Area: <span class="printdata">Rangpur</span> </h4>
                 </div>
               </div>
               <div class="row">
-                <label
-                  for="colFormLabelLg"
-                  class="col-sm-4 col-form-label col-form-label-lg"
-                  >Base Area</label
-                >
-                <div class="col-sm-6">
-                  <select class="form-select" name="applyAddress">
-                    <option selected>Dhaka</option>
-                    <option value="1">Chittagong</option>
-                    <option value="2">Rajshahi</option>
-                    <option value="3">Rangpur</option>
-                  </select>
+                <div class="col-md-12">
+                  <h4>Month: <span class="printdata">March-2022</span> </h4>
                 </div>
               </div>
-              <div class="row mb-3">
-                <label
-                  for="colFormLabelLg"
-                  class="col-sm-4 col-form-label col-form-label-lg"
-                  >Month</label
-                >
-                <div class="col-sm-6">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="fromDate"
-                    name="fromDate"
-                  />
-                  <!-- <input
-                    type="text"
-                    class="form-control text-uppercase"
-                    name="pettyYear"
-                    id="datepicker"
-                  /> -->
-                </div>
-              </div>
-            </form>
           </div>
         </div>
-        <div class="row mb-3">
-          <div class="col-sm-12">
-            <p>
-              Dear Sir,<br />We need of the petty cash for month of
-              <input
-                type="text"
-                class="petty-input"
-                id="toDate"
-                name="toDate"
-                readonly
-              />
-              <!-- <input
-                type="text"
-                placeholder="February"
-                class="petty-input"
-                name="petty-cash"
-                id="datepicker3"
-              /> -->
-              to meet the depot petty expense. For which, we are starting below
-              the details of our sales center requirements
-            </p>
+        <div class="row">
+          <div class="col-md-12">
+            <p>Dear Sir,<br> We need of the petty cash for month of Feb-2022
+             to meet the depot petty expense. For which, we are starting below the details of our sales center requirements</p> 
           </div>
         </div>
         <div class="row">
           <div class="col-md-11 col-sm-12">
-            <table class="table">
+            <table class="table table-borderless">
               <tbody>
                 <tr>
-                  <td>Opening Balance</td>
+                  <td>Opening Balance as at 01.03.2022</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="balanceAmount"
-                      />
-                    </div>
+                    TK 6500 .00
                   </td>
                 </tr>
                 <tr>
-                  <td>Total Expense</td>
+                  <td>Total Expense incurred in the last month</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="expenseAmount"
-                      />
-                    </div>
+                    TK 35000.00
                   </td>
                 </tr>
                 <tr>
-                  <td>Estimate Total Expense</td>
+                  <td>Estimate Total Expense in the current month</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="estimateAmount"
-                      />
-                    </div>
+                    TK 40000.00
                   </td>
                 </tr>
                 <tr>
-                  <td>Requisition Amount</td>
+                  <td>Requisition for Petty Cash in the current monmth</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="requisitionAmount"
-                      />
-                    </div>
+                    TK 35000.00
                   </td>
                 </tr>
                 <tr>
-                  <td>In Word</td>
+                  <td>In Words</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="requisitionAmount"
-                      />
-                    </div>
+                    TK. Thirty Five Thousand Only
                   </td>
                 </tr>
               </tbody>
@@ -422,86 +290,59 @@
           </div>
           <div class="col-md-11 col-sm-12">
             <div class="row my-3">
-              <h2>Break up of estimated total expense of this month</h2>
+              <h5>Break up of estimated total expense of this month</h5>
             </div>
             <table class="table table-bordered">
               <tbody>
                 <tr>
                   <td>Office Rent</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="rentAmount"
-                      />
-                    </div>
+                    TK
+                  </td>
+                  <td>
+                    11500.00
                   </td>
                 </tr>
                 <tr>
                   <td>Internet Bill</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="internetbillAmount"
-                      />
-                    </div>
+                    TK
+                  </td>
+                  <td>
+                    1000.00
                   </td>
                 </tr>
                 <tr>
                   <td>Utility Bill</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="utilityBillAmount"
-                      />
-                    </div>
+                    TK
+                  </td>
+                  <td>
+                    750.00
                   </td>
                 </tr>
                 <tr>
                   <td>Delivery Expense</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="deliveryBillAmount"
-                      />
-                    </div>
+                    TK
+                  </td>
+                  <td>
+                    14500.00
                   </td>
                 </tr>
                 <tr>
                   <td>Other Expense</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="otherBillAmount"
-                      />
-                    </div>
+                    TK
+                  </td>
+                  <td>
+                    7250.00
                   </td>
                 </tr>
                 <tr>
-                  <td>Total Bill</td>
+                  <td colspan="2">Total Bill</td>
                   <td>
-                    <div class="input-group">
-                      <span class="input-group-text" id="basic-addon1">TK</span>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="totalBillAmount"
-                      />
-                    </div>
+                    11500.00
                   </td>
                 </tr>
               </tbody>
@@ -515,15 +356,30 @@
             </p>
           </div>
         </div>
-        <div class="row mt-3">
-          <div class="offset-md-5">
-            <button class="btn btn-primary submit-btn">Submit</button>
+        <div class="row">
+          <div class="col-md-4 mt-5">
+            <div class="underline"></div>
+            <h5>Submited By</h5>
+            <p>Signature with Date and Desg</p>
           </div>
+          <div class="col-md-4 mt-5">
+            <div class="underline"></div>
+            <h5>Forwarded By</h5>
+            <p>Signature with Date and Desg</p>
+          </div>
+          <div class="col-md-4 mt-5">
+            <div class="underline"></div>
+            <h5>Passed for Approval</h5>
+            <p>Signature with Date and Desg</p>
+          </div>
+        </div>
+        <div class="row">
+          <button onclick="window.print();" class="print-btn">Print</button>
         </div>
       </div>
     </section>
     <!-- Footer Section -->
-    <footer>
+    <footer class="noprint">
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -609,34 +465,20 @@
     <!-- Custom JS -->
     <script src="js/script.js"></script>
     <script>
-      $("#fromDate").datepicker({
-        dateFormat: "MM-yy",
-        changeMonth: true,
-        changeYear: true,
-      });
-      $("#fromDate").change(function () {
-        if ($(this).val() != "") {
-          var toDate = new Date($(this).val());
-          MM = toDate.getMonth();
-          year = toDate.getFullYear();
-          var monthArr = [
-            "January",
-            "February",
-            "March",
-            "April",
-            "May",
-            "Jun",
-            "July",
-            "August",
-            "September",
-            "October",
-            "November",
-            "December",
-          ];
-          $("#toDate").val(monthArr[MM] + "-" + year);
-        } else {
-          $("#toDate").val("");
-        }
+      $(function () {
+        $("#txtFromDate").datepicker({
+          dateFormat: "yy",
+          onSelect: function (selected) {
+            $("#txtToDate").datepicker("option", selected);
+            $("#txtToDate").datepicker("setDate", "+0");
+          },
+        });
+        $("#txtToDate").datepicker({
+          dateFormat: "yy",
+          onSelect: function (selected) {
+            $("#txtFromDate").datepicker("option", selected);
+          },
+        });
       });
     </script>
   </body>

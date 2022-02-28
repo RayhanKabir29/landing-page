@@ -1218,6 +1218,25 @@ dl {
 .products-img {
   border: 1px solid #333;
 }
+/* lfa print */
+.print-btn {
+  width: 150px;
+  margin: 0 auto;
+  padding: 10px;
+  border: none;
+  background-color: #01579B;
+  color: #fff;
+  border-radius: 6px;
+}
+.printdata{
+  font-weight: 400;
+}
+.underline{
+  height: 1px;
+  width: 250px;
+background: #333;
+ border: 1px solid #333;
+}
 /* Responsive */
 /* Navbar Responsive */
 @media all and (min-width: 992px) {
