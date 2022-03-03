@@ -186,14 +186,14 @@
       </div>
       <!-- container-fluid.// -->
     </nav>
-    <section class="leave-section">
+     <section class="leave-section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <form action="">
+        <form action="">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
               <div class="row">
                 <label
-                  for="colFormLabelLg"
+                  for="applyTo"
                   class="col-sm-4 col-form-label col-form-label-lg"
                   >Apply To</label
                 >
@@ -208,7 +208,7 @@
               </div>
               <div class="row">
                 <label
-                  for="colFormLabelLg"
+                  for="address"
                   class="col-sm-4 col-form-label col-form-label-lg"
                   >Address</label
                 >
@@ -223,7 +223,7 @@
               </div>
               <div class="row">
                 <label
-                  for="colFormLabelLg"
+                  for="branch"
                   class="col-sm-4 col-form-label col-form-label-lg"
                   >Branch</label
                 >
@@ -238,7 +238,7 @@
               </div>
               <div class="row mb-3">
                 <label
-                  for="colFormLabelLg"
+                  for="subject"
                   class="col-sm-4 col-form-label col-form-label-lg"
                   >Subject</label
                 >
@@ -251,13 +251,27 @@
                   />
                 </div>
               </div>
-            </form>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <form action="">
               <div class="row">
                 <label
-                  for="colFormLabelLg"
+                  for="leaveType"
+                  class="col-sm-4 col-form-label col-form-label-lg"
+                  >Leave Type</label
+                >
+                <div class="col-sm-6">
+                  <select class="form-select" id="leave" onChange="update()">
+                    <option value="Casual Leave">Casual</option>
+                    <option value="Annual Leave">Annual</option>
+                    <option value="Sick Leave">Sick</option>
+                    <option value="Special Leave">Special</optionSick</option>
+                    <option value="Permission Leave for H.Q">Leave for H.Q</optionSick</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="row">
+                <label
+                  for="applicantName"
                   class="col-sm-4 col-form-label col-form-label-lg"
                   >Applicant Name</label
                 >
@@ -272,7 +286,7 @@
               </div>
               <div class="row">
                 <label
-                  for="colFormLabelLg"
+                  for="designation"
                   class="col-sm-4 col-form-label col-form-label-lg"
                   >Designation</label
                 >
@@ -287,7 +301,7 @@
               </div>
               <div class="row">
                 <label
-                  for="colFormLabelLg"
+                  for="baseArea"
                   class="col-sm-4 col-form-label col-form-label-lg"
                   >Base Area</label
                 >
@@ -302,7 +316,7 @@
               </div>
               <div class="row mb-3">
                 <label
-                  for="colFormLabelLg"
+                  for="year"
                   class="col-sm-4 col-form-label col-form-label-lg"
                   >Year</label
                 >
@@ -315,25 +329,10 @@
                   />
                 </div>
               </div>
-            </form>
+             
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <label
-            for="colFormLabelLg"
-            class="col-md-2 col-sm-4 col-form-label col-form-label-lg"
-            >Leave Type</label
-          >
-          <div class="col-md-3 col-sm-12">
-            <select class="form-select" id="leave" onChange="update()">
-              <option value="Casual Leave">Casual</option>
-              <option value="Annual Leave">Annual</option>
-              <option value="Sick Leave">Sick</option>
-              <option value="Special Leave">Special</optionSick</option>
-              <option value="Permission Leave for H.Q">Leave for H.Q</optionSick</option>
-            </select>
-          </div>
-        </div>
+        </form>
         <div class="row mb-3">
           <div class="col-sm-12">
             <p>
@@ -408,7 +407,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> 
     <!-- Footer Section -->
     <footer>
       <div class="footer-top">
