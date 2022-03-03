@@ -57,6 +57,11 @@ input[type="number"] {
   display: flex;
   justify-content: space-between;
 }
+.petty-box {
+  border: 2px solid #333;
+  padding: 6px;
+}
+
 .navbar {
   background-color: #01579b !important;
   height: 70px;
@@ -1229,7 +1234,7 @@ dl {
   border-radius: 6px;
 }
 .printdata {
-  font-weight: 300;
+  font-weight: 600;
 }
 .underline {
   height: 1px;
@@ -1239,6 +1244,21 @@ dl {
 }
 /* Responsive */
 /* Navbar Responsive */
+
+@media all and (max-width: 760px) {
+  .petty-box {
+    font-size: 9px;
+    border: 1px solid #333;
+    padding: 2px;
+    margin-left: 35px;
+    text-align: center;
+  }
+  .top-text {
+    font-size: 8px;
+    margin-left: 35px;
+  }
+}
+
 @media all and (min-width: 992px) {
   .dropdown-menu li {
     position: relative;
