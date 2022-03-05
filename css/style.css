@@ -1242,6 +1242,11 @@ dl {
   background: #333;
   border: 1px solid #333;
 }
+.bar {
+  height: 1px;
+  background: #333;
+  border: 1px solid #333;
+}
 /* Responsive */
 /* Navbar Responsive */
 
