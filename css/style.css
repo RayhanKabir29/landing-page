@@ -1224,6 +1224,17 @@ dl {
   border: 1px solid #333;
 }
 /* lfa print */
+/* .leavePrint-section {
+  width: 1160px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.body-content,
+.conditions {
+  width: 1160px;
+  margin: 0 auto;
+} */
 .print-btn {
   width: 150px;
   margin: 0 auto;

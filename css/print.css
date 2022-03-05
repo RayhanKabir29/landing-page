@@ -1,3 +1,8 @@
-.noprint {
-  display: none;
+@media print {
+  body *:not(#printSection):not(#printSection *) {
+    visibility: hidden;
+  }
 }
+/* .noprint {
+  display: none;
+} */
