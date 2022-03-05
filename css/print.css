@@ -1,3 +1,10 @@
+@media print {
+  body* :not(#print-section):not(#print-section *) {
+    visibility: hidden;
+  }
+  #print-section {
+  }
+}
 .noprint {
   display: none;
 }
