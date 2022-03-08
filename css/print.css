@@ -3,7 +3,12 @@
     visibility: hidden;
   }
   p {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
+  }
+  .logo {
+    width: 350px;
+  }
+  .print-slogan {
+    font-size: 10px;
   }
 }
-
