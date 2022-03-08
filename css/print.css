@@ -2,5 +2,8 @@
   body *:not(#printSection):not(#printSection *) {
     visibility: hidden;
   }
+  p {
+    margin-bottom: 0;
+  }
 }
-/
+

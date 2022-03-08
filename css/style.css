@@ -23,6 +23,7 @@ a {
 p {
   color: #000;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -64,7 +65,7 @@ input[type="number"] {
 
 .navbar {
   background-color: #01579b !important;
-  height: 70px;
+  height: 40px;
 }
 
 .nav-link {
@@ -92,7 +93,7 @@ input[type="number"] {
   border-radius: 0.25rem;
 }
 .dropdown-menu[data-bs-popper] {
-  top: 54px;
+  top: 36px;
   left: 0;
   margin-top: 0.125rem;
 }
@@ -172,6 +173,12 @@ input[type="number"] {
 .counter-section {
   padding: 60px 0 40px;
   background-color: #fff;
+}
+.search-form {
+  height: 25px;
+}
+.btn-outline-success {
+  font-size: 10px !important;
 }
 /* .counter {
   padding: 20px 0;
